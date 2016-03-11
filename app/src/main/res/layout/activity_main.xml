@@ -9,8 +9,25 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.asderfers.dictionary.MainActivity">
 
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:background="#ffffff"
+        android:scrollbars="vertical"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+    </android.support.v7.widget.RecyclerView>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=""
+        android:id="@+id/msg"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
